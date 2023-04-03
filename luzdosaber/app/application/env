@@ -1,0 +1,37 @@
+PORT=80
+# fundamental ou eja
+LUZ_DO_SABER_AMBIENTE=fundamental
+
+DISABLE_DATABASE_ENVIRONMENT_CHECK=1
+ASSET_HOST=https://editor.thiagoqueiroz.gq
+APPLICATION_HOST=editor.thiagoqueiroz.gq
+RACK_ENV=production
+RAILS_ENV=production
+RAILS_SERVE_STATIC_FILES=enabled
+RACK_MINI_PROFILER=0
+RAILS_SERVE_STATIC_FILES=enabled
+EXECJS_RUNTIME=Node
+
+WEB_CONCURRENCY=1
+RACK_TIMEOUT_SERVICE_TIMEOUT=10
+
+SECRET_KEY_BASE=YDnWivVp/JOGL'KzELno
+SMTP_ADDRESS=
+SMTP_DOMAIN=
+SMTP_PASSWORD=
+SMTP_USERNAME=
+POSTGRES_HOST=db
+POSTGRES_NAME=luzdosabereditor
+POSTGRES_USER=luzdosabereditor
+POSTGRES_PASSWORD=senha do banco
+
+REDIS_HOST=redis
+
+SEEDS_ENV=production
+
+ARQUIVOS_HOST=http://editor.thiagoqueiroz.gq
+
+MINIO_HOSTNAME=luzdosaberapp.s3.sa-east-1.amazonaws.com
+MINIO_BUCKET_NAME=luzdosaberfundamentalshare
+MINIO_ACCESS_KEY_ID= chave-aws
+MINIO_SECRET_ACCESS_KEY=chave-aws
